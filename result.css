@@ -1,0 +1,152 @@
+@font-face{
+    @font-face {
+        font-family: 'GmarketSansBold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@font-face{
+    @font-face {
+        font-family: 'MaplestoryOTFBold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+body{
+    background-color: #faf1be;
+    color: #000;
+    overflow: hidden;
+    font-family: "MaplestoryOTFBold";
+}
+
+button {
+    font-family: "MaplestoryOTFBold";
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#main_contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#main_contents .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  100%;
+    height: 100%;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.result h1{
+    font-size: 50px;
+    font-family: "GmarketSansBold";
+}
+
+.result h3{
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.result_img {
+    width: 300px;
+    height: 324px;
+}
+
+.result_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.result_explains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.result_explains .explain {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.result_explains .title {
+    font-family: "GmarketSansBold";
+    font-size: 20px;
+    text-align: center;
+    border-top: 3px solid #ea7e7e;
+    border-bottom: 3px solid #ea7e7e;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.result_explains ul {
+    padding: 0 20px;
+    list-style-type: disc;
+}
+
+.share {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #EA7E7C;
+}
+
+.share button {
+    margin-bottom: 30px;
+}
+
+.facebook_share {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.kakao_share {
+    background-color: #f1d900;
+}
+
+.buttons {
+    padding-bottom: 50px;
+}
+
+.buttons h3 {
+    padding-bottom: 20px;
+}
+
+.buttons button {
+    margin-bottom: 30px;
+}
+
+.dev {
+    background-color: #7F47DD;
+    color: #fff;
+}
